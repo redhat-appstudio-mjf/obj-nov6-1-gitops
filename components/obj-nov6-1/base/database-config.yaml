@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: obj-nov6-1-database-config
+data:
+  VECTORDB_HOST: "obj-nov6-1-database"
+  VECTORDB_PORT: ""

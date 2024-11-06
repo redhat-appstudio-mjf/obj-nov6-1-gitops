@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  rhtap/gitops: obj-nov6-1 
+  janus-idp.io/tekton: obj-nov6-1
+  backstage.io/kubernetes-id: obj-nov6-1
+  backstage.io/kubernetes-namespace: obj-nov6-1 
+  app.kubernetes.io/part-of: obj-nov6-1
+resources: 
+- application-dev.yaml

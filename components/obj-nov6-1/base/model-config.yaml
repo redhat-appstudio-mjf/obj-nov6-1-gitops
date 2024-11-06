@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: obj-nov6-1-model-config
+data:
+  MODEL_ENDPOINT: "https://object-detection-python-maas-apicast-production.apps.tpetkos-aicluster01.devcluster.openshift.com:443"
+  MODEL_NAME: ""
